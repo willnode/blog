@@ -8,7 +8,7 @@
     
         <p>{{ site.description | escape }}</p>    
 
-        <p class="rss-subscribe">Switch languange <a href="{{ site.baseurl }}/index.html">EN</a> | <a href="{{ site.baseurl }}/id/index.html">ID</a>.</p>
+        <p class="rss-subscribe">Switch languange <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> | <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.</p>
     </div>
 
   </div>

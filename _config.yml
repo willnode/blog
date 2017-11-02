@@ -25,6 +25,9 @@ permalink: /:categories/:year/:title.html
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-gist
+gist:
+  noscript: false
 
 disqus: 
   shortname: willnode

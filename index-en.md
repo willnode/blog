@@ -1,7 +1,7 @@
 ---
 # You don't need to edit this file, it's empty on purpose.
 layout: home
-lang: 'id'
-permalink: /id/
-title: Artikel
+lang: 'en'
+permalink: /en/
+title: Posts
 ---

@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  
+
   // Custom bg
   background: linear-gradient(45deg, white 40%, #ccc 100%);
 
@@ -190,9 +190,9 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
-    margin-bottom: $spacing-unit;
-  }
+  // > li {
+  //   margin-bottom: $spacing-unit;
+  // }
 }
 
 .post-meta {
@@ -224,6 +224,10 @@
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
+}
+
+.post-header > .post-title, .post-header > .post-meta {
+  display: inline-block;
 }
 
 .post-content {
