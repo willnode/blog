@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: willnode's blog
+title: WILLNODE BLOG
 email: wildanmubarok22@gmail.com
 description: >-
-  willnode's blog contains hand-crafted stories and facts from my own personal experience.
+  The place for hand-crafted stories and facts from my own personal experience.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:title.html

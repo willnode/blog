@@ -112,6 +112,8 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: linear-gradient(180deg, $grey-color-light 0%, #fdfdfd 100%);
+  
 }
 
 .footer-heading {
@@ -199,6 +201,7 @@
   font-size: $small-font-size;
   color: $grey-color;
   margin-left: 20px;
+  display: inline-block;
 }
 
 .post-link {
@@ -206,7 +209,6 @@
   @include relative-font-size(1.5);
   display: inline-block;
 }
-
 
 
 /**
@@ -220,14 +222,19 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  display: inline-block;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
 }
 
-.post-header > .post-title, .post-header > .post-meta {
+.site-slang {
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-left: 20px;
   display: inline-block;
+   line-height: $base-line-height * $base-font-size * 2.25;
 }
 
 .post-content {
