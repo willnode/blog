@@ -4,4 +4,5 @@ layout: home
 lang: 'id'
 permalink: /id/
 title: Artikel
+excerpt: Tempatnya bercerita dan berfakta dari tangan pengalaman saya sendiri. # {{ site.descriptionid }}
 ---

@@ -6,10 +6,16 @@
 
     <div class="footer-col-wrapper">
     
-        <p>{{ site.description | escape }}</p>    
-
-        <p class="rss-subscribe">Switch languange <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> | <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.</p>
-    </div>
+      {% if page.lang == "en" or page.categories.first == "en" %}
+        <p>{{ site.description | escape }}</p>  
+        <p class="rss-subscribe">Switch language <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> | <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.</p>        
+      {% else %}
+        <p>{{ site.descriptionid | escape }}</p>    
+        <p class="rss-subscribe">Ganti bahasa ke <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> | <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.</p>
+      {% endif %}
+    
+        <p class="rss-subscribe"><a href="https://github.com/willnode/blog/">Fork me</a>.</p>    
+      </div>
 
   </div>
 

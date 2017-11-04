@@ -17,6 +17,8 @@ title: WILLNODE BLOG
 email: wildanmubarok22@gmail.com
 description: >-
   The place for hand-crafted stories and facts from my own personal experience.
+descriptionid: >-
+  Tempatnya bercerita dan berfakta dari tangan pengalaman saya sendiri.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:title.html
