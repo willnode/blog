@@ -202,6 +202,7 @@
   color: $grey-color;
   margin-left: 20px;
   display: inline-block;
+  letter-spacing: -0.5px;
 }
 
 .post-link {
@@ -234,7 +235,7 @@
   color: $grey-color;
   margin-left: 20px;
   display: inline-block;
-   line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 2.25;
 }
 
 .post-content {

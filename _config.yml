@@ -30,6 +30,7 @@ plugins:
   - jekyll-gist
 gist:
   noscript: false
+google_analytics: "UA-109180894-1"
 
 disqus: 
   shortname: willnode
