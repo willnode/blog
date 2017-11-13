@@ -25,14 +25,14 @@ permalink: /:categories/:year/:title.html
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-gist
+#plugins:
+#  - jekyll-feed
+#  - jekyll-gist
 gist:
   noscript: false
 google_analytics: "UA-109180894-1"
 
-disqus: 
+disqus:
   shortname: willnode
 
 # Exclude from processing.

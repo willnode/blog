@@ -122,7 +122,7 @@ blockquote {
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -0.5px;
-  
+
   > :last-child {
     margin-bottom: 0;
   }
@@ -218,6 +218,11 @@ pre {
  * Tables
  */
 
+ hr {
+   border: 1px solid #ccc;
+   margin: 35px 0px;
+ }
+
 table{
   border-collapse: collapse;
   border-spacing: 0;
@@ -226,6 +231,11 @@ table{
 
 
 td ,th{
-  border:1px solid #000000;
+  border:1px solid #bbb;
   padding:5px;
-}  
+}
+
+.gist .blob-num {
+  border: 0px solid #ddd;
+  border-right:  1px solid #ddd;
+}

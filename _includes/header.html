@@ -3,7 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ site.baseurl }}/{{page.lang | default: page.categories.first}}">WILLNODE</a>
+    <a class="site-title" href="{{ site.baseurl }}/{{ page.lang | default: page.categories.first }}">WILLNODE</a>
     <span class="site-slang">BLOG | {{ page.lang | default: page.categories.first | upcase }}</span>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -19,8 +19,8 @@
 
         <div class="trigger">
             <a class="page-link" href="/">Home</a>
-            <a class="page-link" href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
-            <a class="page-link" href="/about/">About</a>
+            <a class="page-link" href="{{ site.baseurl }}/{{ page.lang | default: page.categories.first }}/feed.xml">Subscribe</a>
+            <a class="page-link" href="{{ site.baseurl }}/{{ page.lang | default: page.categories.first }}/about/">About</a>
         </div>
       </nav>
   </div>

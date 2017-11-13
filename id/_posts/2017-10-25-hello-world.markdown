@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 ---
 
-Halo!, artikel ini adalah posting pertama dari blog ini. 
+Halo!, artikel ini adalah posting pertama dari blog ini.
 
 Sementara itu, artikel pertama ini  bakal jadi bahan percobaan pake' Jekyll + Kramdown.
 
@@ -23,7 +23,7 @@ void MungkinBeberapaKode() { /* coding stuff */ }
 ```
 
 > Dan beberapa quote yang keren
-> Disini juga 
+> Disini juga
 
 | Table | Disini |
 |:--|--:|
@@ -41,7 +41,7 @@ Mungkin butuh berapa keterangan disini[^1]
 * Bulet
   1. Untuk
   2. Sekarang
-     Juga 
+     Juga
 
 <details><summary>Contoh</summary>
 <code>dari sebuah spoiler</code></details>
@@ -59,4 +59,4 @@ Coba dengan --- (dashes) dan ... (dots) dan << arrows >>
 
 Aku demen saya Kramdown, karena ia punya banyak fitur tanpa butuh plugin apaun. Okelah ini gist versi english nya bagi yang penasaran:
 
-{% gist willnode/8443d9b88960ae8c810cb79a2b89c9b7 %}
+{% include gist.html gist="willnode/8443d9b88960ae8c810cb79a2b89c9b7" %}

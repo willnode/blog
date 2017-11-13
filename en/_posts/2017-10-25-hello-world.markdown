@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 ---
 
-Hello!, this is the first post of the blog. 
+Hello!, this is the first post of the blog.
 
 Meanwhile, this first post is gonna be my testing playground with Jekyll + Kramdown.
 
@@ -59,4 +59,4 @@ Try with --- (dashes) and ... (dots) and << arrows >>
 
 I love Kramdown, it can do so many things without need for any plugin. Anyway here's the gist if you wonder:
 
-{% gist willnode/8443d9b88960ae8c810cb79a2b89c9b7 %}
+{% include gist.html gist="willnode/8443d9b88960ae8c810cb79a2b89c9b7" %}

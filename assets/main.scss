@@ -1,4 +1,21 @@
 ---
 ---
 
+// header anchor links
+.header-link {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out 0.1s;
+    color: black;
+    margin-left: 10px;
+  }
+
+  h2:hover .header-link,
+  h3:hover .header-link,
+  h4:hover .header-link,
+  h5:hover .header-link,
+  h6:hover .header-link {
+    opacity: 0.2;
+    text-decoration: none;
+  }
+
 @import "minima";

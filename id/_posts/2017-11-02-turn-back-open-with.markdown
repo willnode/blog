@@ -15,4 +15,4 @@ Kesempatan ku terbuka karena aku punya `vscode`, dan ia asa `Open with Code` set
 
 Aku bisa beritahu stepnya tapi lebih mudah sih kalau cuma export. Pokoknya tinggal view raw, download dan run:
 
-{% gist willnode/157a5b95bf894e6556cf02455a8d8cba %}
+{% include gist.html gist="willnode/157a5b95bf894e6556cf02455a8d8cba" %}

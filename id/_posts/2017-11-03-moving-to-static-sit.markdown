@@ -59,9 +59,9 @@ Aku sebenarnya khawatir kalau situs ini di banned kalau sudah melewati [100 GB b
 [jekyll]: https://jekyllrb.com
 [choco]: https://chocolatey.org
 [docfx]: https://dotnet.github.io/docfx/
-[comcalc]: willnode.github.io/ComCalc/index.html
-[expertise]: willnode.github.io/expertise/
-[engine4]: willnode.github.io/engine4-doc/
+[comcalc]: https://willnode.github.io/ComCalc/index.html
+[expertise]: https://willnode.github.io/expertise/
+[engine4]: http://wellosoft.net/engine4-doc/
 [mysite]: http://wellosoft.net
 [usagelimit]: https://help.github.com/articles/what-is-github-pages/#usage-limits
 [liquid]: https://shopify.github.io/liquid/
