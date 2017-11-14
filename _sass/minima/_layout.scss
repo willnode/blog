@@ -70,16 +70,9 @@
 
     .menu-icon {
       display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
+      line-height: 1;
       padding-top: 10px;
       text-align: center;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
     }
 
     input ~ .trigger {
@@ -113,12 +106,13 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background: linear-gradient(180deg, $grey-color-light 0%, #fdfdfd 100%);
-  
+
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  display: inline-block;
 }
 
 .contact-list,
@@ -233,7 +227,7 @@
 .site-slang {
   font-size: $small-font-size;
   color: $grey-color;
-  margin-left: 20px;
+  margin-left: 1em;
   display: inline-block;
   line-height: $base-line-height * $base-font-size * 2.25;
 }
@@ -265,3 +259,23 @@
     }
   }
 }
+
+
+// header anchor links
+.header-link {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out 0.1s;
+  color: black;
+  margin-left: 10px;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 0.2;
+  text-decoration: none;
+}
+
+
