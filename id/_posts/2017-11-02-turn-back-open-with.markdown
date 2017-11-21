@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Kembalikan \"Open with CMD\""
 ---
 

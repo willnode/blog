@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Keindahan dari Matriks untuk Rotasi"
 ---
 

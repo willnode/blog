@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Berhijrah ke Situs Statis (dan alasannya)"
 ---
 
@@ -31,7 +30,7 @@ Aku tak ingat kapan aku pertama kali menggunakan `GitHub Desktop` namun bulan la
 
 > Lalu semua telah berubah
 
-Aku tidak percaya bagaimana cepat semuanya berubah. Pada waktu itu, GitHub baru support untuk hosting pages via folder `/docs`. Itu memotivasi saya untuk membuat website lagi untuk hosting daftar project saya, lagi menggunakan DocFX. Aku tempatkan hasil HTML kedalam `/docs` lalu membuatnya online [disini][expertise]. 
+Aku tidak percaya bagaimana cepat semuanya berubah. Pada waktu itu, GitHub baru support untuk hosting pages via folder `/docs`. Itu memotivasi saya untuk membuat website lagi untuk hosting daftar project saya, lagi menggunakan DocFX. Aku tempatkan hasil HTML kedalam `/docs` lalu membuatnya online [disini][expertise].
 
 Jadi aku sudah punya dua website dalam satu bulan, dan itu secara dramatis sudah menambah pemahamanku dalam desain web.
 
@@ -41,7 +40,7 @@ Jadi aku sudah punya dua website dalam satu bulan, dan itu secara dramatis sudah
 
 Masalah muncul disini. Wordpress tidak memperbolehkanku untuk menambah domain sampai aku berlangganan, dan wordpress hosting masih agak mahal. Namun, kebebasanku dimulai saat aku mendengar GitHub pages bisa diletakkan ke domain sendiri, dengan cuma-cuma.
 
-Ini menuntunku untuk mencoba Jekyll lagi. Namun sekali lagi, Jekyll pun sudah berubah. Sekarang aku bisa menginstall dengan `bash` atau `choco`. Butuh beberapa jam sampai selesai menginstal jekyll di laptop (Aku install via `choco` meski masih agak kesulitan tapi ok sajalah). 
+Ini menuntunku untuk mencoba Jekyll lagi. Namun sekali lagi, Jekyll pun sudah berubah. Sekarang aku bisa menginstall dengan `bash` atau `choco`. Butuh beberapa jam sampai selesai menginstal jekyll di laptop (Aku install via `choco` meski masih agak kesulitan tapi ok sajalah).
 
 Setelah beberapa hari, Aku buat website untuk halaman beranda dan `/blog/` dua-duanya pakai Jekyll. Memang indah bahwa that dua software web generator (Jekyll dan DocFX) menggunakan [Liquid][liquid] jadi aku tidak perlu khawatir soal manual copas dan bisa fleksibel dengan tema.
 

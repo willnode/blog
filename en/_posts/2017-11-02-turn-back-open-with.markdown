@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Turn back \"Open with CMD\""
 ---
 

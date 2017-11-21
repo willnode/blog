@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Beauty of Matrix Rotations"
 ---
 

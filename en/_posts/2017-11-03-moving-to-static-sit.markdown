@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Moving to Static Site (and why)"
 ---
 
@@ -31,7 +30,7 @@ I can't remember when I first used `GitHub Desktop` but in the previous month, I
 
 > And then everything has changed
 
-I can't believe how things changed rapidly. By the time, GitHub support hosting pages via folder `/docs` and it's motivate me to create another website to host list of my projects, again using DocFX (yeah, really). I put the generated content under `/docs` and then put it online [here][expertise]. 
+I can't believe how things changed rapidly. By the time, GitHub support hosting pages via folder `/docs` and it's motivate me to create another website to host list of my projects, again using DocFX (yeah, really). I put the generated content under `/docs` and then put it online [here][expertise].
 
 So I have two new website in under a month, and it's dramatically gain my understanding in web development.
 
@@ -41,7 +40,7 @@ So I have two new website in under a month, and it's dramatically gain my unders
 
 There the problem happen. Wordpress won't allow me to add domain unless I subscribe, and wordpress hosting still kinda expensive. However, things leads me into freedom when I heard that github allow pages to be put under custom domain, for free.
 
-This leads me to make another chance to try Jekyll again. But to may surprise (again), Jekyll also evolve. Now I have a choice to install it in windows via `bash` or `choco`. It takes few hours until I managed to successfully install and execute jekyll into my computer (I choose `choco` and still kinda hard but okay anyway). 
+This leads me to make another chance to try Jekyll again. But to may surprise (again), Jekyll also evolve. Now I have a choice to install it in windows via `bash` or `choco`. It takes few hours until I managed to successfully install and execute jekyll into my computer (I choose `choco` and still kinda hard but okay anyway).
 
 Then after few days, I managed to create the homepage and `/blog/` using Jekyll. It's awesome that both platform (Jekyll and DocFX) are powered by [Liquid][liquid] so I don't have to worry about laboring and manually copy stuff.
 
