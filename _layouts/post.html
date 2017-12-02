@@ -10,12 +10,13 @@ layout: default
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+      </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% if page.hidden %}
+      <pre style="color:brown"><i>This article may unfinished as it's not in the archives.</i></pre>
+    {% endif %}
     {{ content }}
   </div>
 

@@ -9,9 +9,9 @@ categories: ['id']
 
 Saya dalam 20 detik:
 
-Wildan Mubarok adalah software engineer. Dia membangun `Desktop tools` dengan C#/NET, `Game and libraries` menggunakan C#/Unity, `Graphics` dengan Blender.
+Wildan Mubarok adalah software engineer. Dia membuat `Desktop tools`, `Game dan libraries`, dan `Graphics`.
 
-Dia juga punya minat dengan `Web development` menggunakan HTML/CSS/JS, `Static web` menggunakan Jekyll/Liquid, `Web-based desktop development` menggunakan Angular/Typescript.
+Dia juga punya minat dengan `Web development`, `Static web`, `Web-based desktop development`.
 
 Ibu kota dia berada di Indonesia. Dia belum masuk kuliah. Dia suka mengolah dengan hal baru dan menunda sepanjang deadline. Warna favoritnya adalah <span style="color: #07c">#07C</span> Kebiruan.
 

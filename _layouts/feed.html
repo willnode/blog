@@ -9,11 +9,11 @@
   <name>{{ site.author.name }}</name>
   <email>{{ site.author.email }}</email>
 </author>
-{% for post in site.posts %}{% if post.categories contains page.lang %}<entry>
+{% for post in site.posts %}{% if post.categories contains page.lang %}{% unless post.hidden==true %}<entry>
   <title>{{ post.title }}</title>
   <link href="{{ post.url | absolute_url }}"/>
   <updated>{{ post.date | date_to_xmlschema }}</updated>
   <id>{{ site.url }}{{ post.id }}</id>
   <summary type="html">{{ post.excerpt | xml_escape | rstrip }}</summary>
-</entry>{% endif %}{% endfor %}
+</entry>{% endunless %}{% endif %}{% endfor %}
 </feed>

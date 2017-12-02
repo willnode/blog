@@ -31,8 +31,7 @@ markdown: kramdown
 #plugins:
 #  - jekyll-feed
 #  - jekyll-gist
-gist:
-  noscript: false
+
 google_analytics: "UA-109180894-1"
 
 disqus:
