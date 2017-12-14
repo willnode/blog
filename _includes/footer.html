@@ -1,32 +1,21 @@
 <footer class="site-footer">
   <div class="wrapper">
-    {% if page.lang == "en" or page.categories.first == "en" %}
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-    <span class="site-slang" style="margin-left: 0">blog written by
-      <a href="{{ site.baseurl }}/en/about/">{{ site.author }}</a>
-    </span>
-    {% else %}
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-    <span class="site-slang" style="margin-left: 0">blog ditulis oleh
-      <a href="{{ site.baseurl }}/id/about/">{{ site.author }}</a>
-    </span>
-    {% endif %}
-    <div class="footer-col-wrapper">
-      {% if page.lang == "en" or page.categories.first == "en" %}
-      <p>{{ site.description | escape }}</p>
-      <p>Switch language
-        <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> |
-        <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.
+    <span class="site-slang" style="margin-left: 0">Willnode Blog. (C) 2017
+      <a href="{{ site.baseurl }}/id/about/">{{ site.author }}</a>.
+      {% capture url %}{{ page.url | remove_first: "en/" |  remove_first: "id/" }}{% endcapture %}
+      {% unless page.lang == "id" %}
+      Switch language 
+        <a href="{{ site.baseurl }}/en{{ url }}">EN</a> |
+        <a href="{{ site.baseurl }}/id{{ url }}">ID</a>.
         <a href="https://github.com/willnode/blog/">Fork me</a>.
-        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.</p>
+        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.
       {% else %}
-      <p>{{ site.descriptionid | escape }}</p>
-      <p>Ganti bahasa ke
-        <a href="{{ site.baseurl }}/en{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">EN</a> |
-        <a href="{{ site.baseurl }}/id{{ page.url | remove_first: "en/" |  remove_first: "id/" }}">ID</a>.
+      Ganti bahasa 
+        <a href="{{ site.baseurl }}/en{{ url }}">EN</a> |
+        <a href="{{ site.baseurl }}/id{{ url }}">ID</a>.
         <a href="https://github.com/willnode/blog/">Fork me</a>.
-        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.</p>
-      {% endif %}
-    </div>
+        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman</a>.
+      {% endunless %}
+    </span>
   </div>
 </footer>

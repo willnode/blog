@@ -1,4 +1,4 @@
 ---
 title: "Bitcoin as I understand"
-hidden: 
+hidden: true
 ---

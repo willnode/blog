@@ -2,7 +2,7 @@
 title: "Rencana diri ke 2018"
 hidden: true
 ---
-<!--
+
 Tidak peduli apa yang kita lakukan, perencanaan adalah kuncinya. Harry Potter tidak mati dalam novel pertama, jadi haruskah aku?
 
 ## Apa yang telah saya lakukan di tahun 2017
@@ -36,5 +36,3 @@ Ah! Memilih sangat sulit! Saya perlu menulis pilihan di sini:
 + Dinginkan dan nikmati waktu terbuang dengan buku-buku yang penuh dengan drama dan pemikiran.
 + Pelajari jack-and-trading dan mulailah berinvestasi pada hal-hal seperti Bitcoin dan menjadi kaya.
 + Mulai berinvestasi dengan uang sungguhan dan mulailah menciptakan bisnis yang serius.
-+ Saya rasa itu sudah cukup
--->

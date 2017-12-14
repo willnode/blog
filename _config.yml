@@ -49,3 +49,13 @@ defaults:
     values:
       layout: "post"
       hidden: true
+  -
+    scope:
+      path: "id"
+    values:
+      lang: "id"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"

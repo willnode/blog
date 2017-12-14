@@ -1,0 +1,21 @@
+<table>
+    <style>.e { color: red !important }</style>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>EN</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            {% for post in site.posts %}
+            {% capture odd %}{% cycle 'y', 'n' %}{% endcapture %} 
+            {% if odd=='y' %}</tr><tr>{% endif %}
+            <td>
+                <a {% if post.hidden %}class='e'{% endif %} href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </td>
+            {% endfor %}
+        </tr>
+    </tbody>
+
+</table>
