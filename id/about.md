@@ -5,16 +5,8 @@ permalink: /id/about/
 categories: ['id']
 ---
 
-> Wildan Mubarok, Full Stack Software Engineer
+Ini blog saya. Namun saya biasa ngeblog ke [channel bahasa inggris](/en).
 
-Saya dalam 20 detik:
+Untuk channel indonesia ini, kugunakan untuk menyimpan (mirror) dari curhatan saya di akun Facebook.
 
-Wildan Mubarok adalah software engineer. Dia membuat `Desktop tools`, `Game dan libraries`, dan `Graphics`.
-
-Dia juga punya minat dengan `Web development`, `Static web`, `Web-based desktop development`.
-
-Ibu kota dia berada di Indonesia. Dia belum masuk kuliah. Dia suka mengolah dengan hal baru dan menunda sepanjang deadline. Warna favoritnya adalah <span style="color: #07c">#07C</span> Kebiruan.
-
-***
-
-Kunjungi halaman depan untuk membuka [contact link saya](/index.html#contacts).
+Mau chat? coba lihat [halaman about](http://wellosoft.net/about) dulu.

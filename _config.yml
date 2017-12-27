@@ -14,14 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: WILLNODE
-email: wildanmubarok22@gmail.com
+email: willnode@wellosoft.net
 author: Wildan Mubarok
-description: >-
-  The place for hand-crafted stories and facts from my own personal experience.
-descriptionid: >-
-  Tempatnya bercerita dan berfakta dari tangan pengalaman saya sendiri.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:title.html
 
 sass:

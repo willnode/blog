@@ -51,7 +51,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: white;    
+    background-color: white;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -135,23 +135,22 @@
   margin-left: 0;
   list-style: none;
 
-  // > li {
-  //   margin-bottom: $spacing-unit;
-  // }
 }
 
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
   margin-left: 20px;
-  display: inline-block;
   letter-spacing: -0.5px;
+  margin-top: 15px;
+  float: right;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 

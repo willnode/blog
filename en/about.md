@@ -7,12 +7,12 @@ categories: ['en']
 
 Me in 20 seconds:
 
-Wildan Mubarok is a software engineer. He builds `Desktop tools`, `Game and libraries`, and `Graphics`.
+Wildan Mubarok is nobody but a software geek. He mainly interested in making front-web software or libraries.
 
-He also have current interests with `Web development`, `Static web`, `(server-side) web development`.
+He also likes to be Jack of the Trade, so he also learn to build websites and little nerdy pretending to be a security geek.
 
-His main town is in Indonesia. He does not attend college yet. He likes puddling around with new stuff and procrastinating along deadlines. His favorite color is bluish <span style="color: #07c">#07C</span>.
+His main town is in Indonesia. He does not attend college yet. But he likes to puddling around with new stuff and procrastinating along deadlines. His favorite color is bluish <span style="color: white; background-color: #07c; padding: 2px">#07C</span>.
 
 ***
 
-See the home page for my [contact links](/index.html#contacts).
+See also my [main about page](http://wellosoft.net/about).

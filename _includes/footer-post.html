@@ -1,0 +1,25 @@
+<footer class="site-footer">
+    <div class="wrapper">
+      <span class="site-slang" style="margin-left: 0">Willnode Blog. (C) 2017
+        <a href="{{ site.baseurl }}/id/about/">{{ site.author }}</a>.
+        {% assign PREV=page.previous %}{% assign NEXT=page.next %}
+        {% for i in (1..10) %}
+            {% unless PREV %}{% break %}{% endunless %}
+            {% if PREV.lang == page.lang %}{% break %}{% else %}{% assign PREV=PREV.previous %}{% endif %}
+        {% endfor %}
+        {% for i in (1..10) %}
+            {% unless NEXT %}{% break %}{% endunless %}
+            {% if NEXT.lang == page.lang %}{% break %}{% else %}{% assign NEXT=NEXT.next %}{% endif %}
+        {% endfor %}
+        {% unless page.lang == "id" %}
+            {% if PREV %}<a href="{{ PREV.url | relative_url }}" title="{{ PREV.title | escape }}">Previous</a>.{% endif %}
+            {% if NEXT %}<a href="{{ NEXT.url | relative_url }}" title="{{ NEXT.title | escape }}">Next</a>.{% endif %}
+            <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.
+        {% else %}
+            {% if PREV %}<a href="{{ PREV.url | relative_url }}" title="{{ PREV.title | escape }}">Sebelumnya</a>.{% endif %}
+            {% if NEXT %}<a href="{{ NEXT.url | relative_url }}" title="{{ NEXT.title | escape }}">Selanjutnya</a>.{% endif %}
+            <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman</a>.
+        {% endunless %}
+      </span>
+    </div>
+  </footer>

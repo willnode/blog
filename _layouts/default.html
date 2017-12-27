@@ -16,7 +16,11 @@ layout: compress
       </div>
     </main>
 
+    {% if page.date %}
+    {% include footer-post.html %}
+    {% else %}
     {% include footer.html %}
+    {% endif %}
   </body>
 
 </html>

@@ -19,13 +19,7 @@ func check(e error) {
 
 func makeSlug(s string) string {
 	s = strings.ToLower(s)
-	s = strings.Replace(s, " ", "-", -1)
-	if len(s) > 20 {
-		s = s[0:20]
-		if len(s) == 20 && s[19] == '-' {
-			s = s[0:19]
-		}
-	}
+	s = strings.Replace(strings.Replace(s, " ", "-", -1), "'", "", -1)
 	return s
 }
 
@@ -38,14 +32,18 @@ func main() {
 	date := time.Now().Format("2006-01-02")
 	slang := date + "-" + makeSlug(title)
 
+	fmt.Print("Language?\n")
+
+	l, _ := bufio.NewReader(os.Stdin).ReadString('\n')
+	l = strings.Trim(l, " \r\n")
+
 	// if not exist
-	if _, err := os.Stat("en/_posts/" + slang + ".md"); err == nil {
+	if _, err := os.Stat(l + "/_posts/" + slang + ".md"); err == nil {
 		panic("Shit! File Exists!")
 	}
 
 	mem := []byte(fmt.Sprintf(format, title))
-	check(ioutil.WriteFile(fmt.Sprint("en/_posts/", slang, ".md"), mem, 0644))
-	check(ioutil.WriteFile(fmt.Sprint("id/_posts/", slang, ".md"), mem, 0644))
+	check(ioutil.WriteFile(fmt.Sprint(l+"/_posts/", slang, ".md"), mem, 0644))
 
 }
 
