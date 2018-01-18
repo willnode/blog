@@ -1,6 +1,5 @@
 ---
 title: Modern Javascript
-hidden: true
 ---
 
 Three months of learning Javascript and the internet, it's really amazing. I think everyone agreed, that if you do GUI, nothing beats HTML+CSS. And thanks to GitHub Pages, deploying these stuff is never been easier.

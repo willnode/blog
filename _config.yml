@@ -18,7 +18,7 @@ email: willnode@wellosoft.net
 author: Wildan Mubarok
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:year/:title.html
+permalink: /:categories/:title.html
 
 sass:
   style: compressed

@@ -11,3 +11,5 @@ So I can put my javascript bundle into Codepen.
 ## Why not add SSL
 
 Frankly my domain where I buy put additional change for it 🤔
+
+> EDIT: I cancel my behaviour. Turns out I can proxy via Cloudflare and get SSL for free. Yay easy!
