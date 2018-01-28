@@ -54,7 +54,7 @@ Jika aku ingin menggunakan email atas nama domain, aku butuh Email Forwarder. Un
 
 Karena GitHub hanya menyediakan static hosting, Aku tidak bisa mengeksekusi (deploy) server sendiri seperi PHP atau Node.JS.
 
-Tapi dengan now.sh aku bisa! Dengan bandwidth 1 GB, aku bisa deploy aplikasi Docker (Bahasa Go) atau Node.JS (Bahasa JS) dan mengeksekusinya sebagai server! (Untuk PHP sori ya tidak disediakan).
+Tapi dengan now.sh aku bisa! Dengan bandwidth 1 GB, aku bisa deploy aplikasi Docker (Bahasa Go) atau Node.JS (Bahasa JS) dan mengeksekusinya sebagai server!
 
 untuk wellosoft.net kugunakan now.sh untuk crawl [list repository GitHub](https://wellosoft.net/#repos) saya sendiri setiap hari sekali. Jadi ia selalu up to date tanpa aku turun tangan 😁.
 

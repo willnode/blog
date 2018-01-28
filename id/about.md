@@ -7,6 +7,4 @@ categories: ['id']
 
 Ini blog saya. Namun saya biasa ngeblog ke [channel bahasa inggris](/en).
 
-Untuk channel indonesia ini, kugunakan untuk menyimpan (mirror) dari curhatan saya di akun Facebook.
-
-Mau chat? coba lihat [halaman about](http://wellosoft.net/about) dulu.
+Untuk channel indonesia ini, kugunakan untuk menyimpan (mirror) dari curhatan Facebook.
