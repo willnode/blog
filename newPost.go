@@ -7,6 +7,7 @@ import (
 	"os"
 	"strings"
 	"time"
+	"regexp"
 )
 
 var format = "---\r\ntitle: %s\r\nhidden: true\r\n---\r\n"
@@ -17,9 +18,12 @@ func check(e error) {
 	}
 }
 
+var invalids = regexp.MustCompile("[?@#\\/()]|\\(.+\\)")
+
 func makeSlug(s string) string {
 	s = strings.ToLower(s)
 	s = strings.Replace(strings.Replace(s, " ", "-", -1), "'", "", -1)
+	s = invalids.ReplaceAllString(s, "")
 	return s
 }
 
@@ -47,6 +51,6 @@ func main() {
 
 }
 
-// This is a small utility to easily create new post
+// This is a small utility i made to easily create new post
 // To make exe:
 // go build -o newPost.exe newPost.go
