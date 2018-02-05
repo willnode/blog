@@ -18,7 +18,7 @@ The solution however very obvious:
 
 Yes! I have [Cloudinary](https://cloudinary.com).
 
-{% include img.html src="Comical_Animals-0002.jpg" %}
+![Funny cat]({{site.img}}Comical_Animals-0002.jpg)
 
 Obviously the first image that gets uploaded via external service!
 

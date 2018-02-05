@@ -103,22 +103,7 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background: linear-gradient(180deg, $grey-color-light 0%, #fdfdfd 100%);
-
 }
-
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
-  display: inline-block;
-}
-
-
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
-  @extend %clearfix;
-}
-
 
 /**
  * Page content
@@ -134,7 +119,6 @@
 .post-list {
   margin-left: 0;
   list-style: none;
-
 }
 
 .post-meta {
@@ -208,6 +192,19 @@
   }
 }
 
+#show-disqus {
+  width: 100%;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 7px 0px;
+  cursor: pointer;
+}
+
+#show-disqus:hover {
+  border-color: #07c;
+  color: #07c;
+}
 
 // header anchor links
 .header-link {

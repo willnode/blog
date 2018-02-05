@@ -10,7 +10,7 @@ Long story short I want to pop cmd easily when I right clicking any folder like 
 
 Turns out that because I use `vscode`, and it shows `Open with Code` when I right clicking on any folder, I can use the same method to show up another version like  Open with CMD. I just need to banging my self with `regedit` and found that the trick works great.
 
-{% include img.html src="openwithcmd.jpg" %}
+![Open with CMD]({{site.img}}openwithcmd.jpg)
 
 I can tell you steps but it is much simpler if I just export for you. In the nutshell, just view raw, download and run:
 

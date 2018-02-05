@@ -1,5 +1,5 @@
-{% if page.comments != false and jekyll.environment == "production" %}
-  <div id="disqus_thread"></div>
+{% if page.comments != false %}
+  <div id="disqus_thread"><button id="show-disqus">Show Comments</button></div>
   <script>
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
@@ -7,12 +7,14 @@
       this.language = '{{ page.lang }}';
     };
 
-    (function() {
+    var show_disqus = document.getElementById('show-disqus');
+    show_disqus.onclick = function() {
+      show_disqus.textContent = 'Loading...';
       var d = document, s = d.createElement('script');
       s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
-    })();
+    };
   </script>
-  <noscript>Please enable JavaScript to view <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus</a>.</noscript>
+  <noscript><style>#show-disqus{display: none}</style><i><h5>Comment disabled -- Enable JavaScript to comment on this article.</h5></i></noscript>
 {% endif %}

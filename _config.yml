@@ -18,6 +18,7 @@ email: willnode@wellosoft.net
 author: Wildan Mubarok
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
+img: "https://res.cloudinary.com/wellosoft/image/upload/blog/"
 permalink: /:categories/:title.html
 
 sass:
@@ -39,6 +40,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      is_post: true
   -
     scope:
       path: "drafts"
