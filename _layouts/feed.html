@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>{{ site.title }}</title>
-<link href="{{ page.url | absolute_url }}" rel="self"/>
-<link href="{{ site.url }}/"/>
+<id>{{ site.url }}/{{ page.lang }}</id>
+<icon>/favicon.png</icon>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}</id>
+<description>{{ page.excerpt }}</description>
+<link href="{{ site.url }}/{{ page.lang }}/"/>
+<link href="{{ page.url | absolute_url }}" rel="self"/>
+<incaseyoudontgettheidea>{{ page.hint }}</incaseyoudontgettheidea>
 <author>
   <name>{{ site.author.name }}</name>
   <email>{{ site.author.email }}</email>
+  <uri>{{ site.author.uri }}</uri>
 </author>
 {% for post in site.posts %}{% if post.categories contains page.lang %}{% unless post.hidden==true %}<entry>
   <title>{{ post.title }}</title>
   <link href="{{ post.url | absolute_url }}"/>
   <updated>{{ post.date | date_to_xmlschema }}</updated>
   <id>{{ site.url }}{{ post.id }}</id>
-  <summary type="html">{{ post.excerpt | xml_escape | rstrip }}</summary>
+  <summary type="html"><![CDATA[{% include compress.html content=post.content %}]]></summary>
 </entry>{% endunless %}{% endif %}{% endfor %}
 </feed>

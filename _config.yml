@@ -13,13 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WILLNODE
-email: willnode@wellosoft.net
-author: Wildan Mubarok
+title: Shower thoughts on willnode
+author:
+  name: Wildan Mubarok
+  email: willnode@wellosoft.net
+  uri: https://wellosoft.net
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
 img: "https://res.cloudinary.com/wellosoft/image/upload/blog/"
 permalink: /:categories/:title.html
+excerpt:
+  en: The place where I told stories and facts from my own hands-on experiences.
+  id: Tempatnya bercerita dan berfakta dari tangan pengalaman saya sendiri.
 
 sass:
   style: compressed

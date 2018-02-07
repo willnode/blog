@@ -164,6 +164,20 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 }
 
+.foot-left {
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-left: 0;
+  float: left;
+}
+
+.foot-right {
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-left: 0;
+  float: right;
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
 
