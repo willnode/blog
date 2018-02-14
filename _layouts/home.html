@@ -15,9 +15,10 @@ layout: default
             {% unless post.hidden==true %}
              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
               <h2 class="post-link">
-                <a href="{{ post.url | relative_url }}" title="{{ post.excerpt | strip_html }}…">{{ post.title | escape }}</a>
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
               <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <p class="post-short">{{ post.excerpt | strip_html }}…</p>
             {% endunless %}
           {% endif %}
         </li>

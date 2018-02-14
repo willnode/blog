@@ -1,5 +1,5 @@
 ---
-title: "Choosing the Technlogy"
+title: "Choosing the Technology"
 ---
 
 By this time in beginning of 2018. These are the technologies that I have use and try. Not all technology fits-all-the-case so I have options:
