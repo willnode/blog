@@ -56,7 +56,7 @@ Most first timers began with improving documentation or README, or perhaps updat
 
 First stuff, you need to know [how PR works](https://help.github.com/articles/about-pull-requests/). Be careful with what you're doing and watch every commit you made. And finally, give the description properly and be helpful.
 
-Dude I'm serious here. To give you demonstration, In [my first real PR](https://github.com/sindresorhus/gh-latest-repos/pull/9), I was panicking when my PR get fail on tests while it just matter of double quotes (I wasn't knew about style linters before) and the worst, it hadn't been merged to this date.
+Dude I'm serious here. To give you demonstration, In [my first real PR](https://github.com/sindresorhus/gh-latest-repos/pull/9), I was panicking when my PR get fail on tests while it just matter of double quotes (I wasn't knew about style linters before) ~~and the worst, it hadn't been merged to this date~~ whoops, just merged 1 day after posting (did @sindresorhus saw this post 👀).
 
 In my most recent PR, I had submitted [a design PR](https://github.com/desktop/desktop/pull/3922) with real damn good close ups, yet only been merged a week later when I gave them another damn good explanation. Gosh, I just satisfied when @donokuda greet me with emoji before merging the PR. It just made my week.
 
@@ -72,7 +72,7 @@ But anyway, looking at the success stories, I'd like to follow the trend, howeve
 
 ![The graph in Jan 2018]({{site.img}}contib-graph-jan18.png)
 
-Yeah, I made 150+ commits in this 2018 yet don't get attention I deserve. Yes I still likely to do this but I think will stay on the same boat.
+Yeah, I made 150+ commits in this 2018 yet don't get attention I deserve. Yes I still likely to do this but I think I would stay on the same boat.
 
 ## The Fate
 

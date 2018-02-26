@@ -20,25 +20,26 @@ author:
   uri: https://wellosoft.net
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
-img: "https://res.cloudinary.com/wellosoft/image/upload/blog/"
+img: "//res.cloudinary.com/wellosoft/image/upload/blog/"
 permalink: /:categories/:title.html
 excerpt:
   en: The place where I told stories and facts from my own hands-on experiences.
   id: Tempatnya bercerita dan berfakta dari tangan pengalaman saya sendiri.
-
 sass:
   style: compressed
-# Build settings
 markdown: kramdown
-#plugins:
-#  - jekyll-feed
-#  - jekyll-gist
-
 google_analytics: "UA-109180894-1"
-
 disqus:
   shortname: willnode
-
+compress_html:
+  comments: all
+exclude:
+  - CNAME
+  - Gemfil*
+  - img/*
+  - newPost*
+  - README.md
+  - serve.bat
 defaults:
   -
     scope:

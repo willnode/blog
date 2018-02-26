@@ -15,11 +15,13 @@
         {% unless page.lang == "id" %}
             {% if PREV %}<a href="{{ PREV.url | relative_url }}" title="{{ PREV.title | escape }}">Previous</a>.{% endif %}
             {% if NEXT %}<a href="{{ NEXT.url | relative_url }}" title="{{ NEXT.title | escape }}">Next</a>.{% endif %}
+            <a href="https://twitter.com/intent/tweet?text=@willnode&tw_p=tweetbutton&url={{ page.url | absolute_url | cgi_escape }}" target="_blank">Tweet this page</a>.
             <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.
         {% else %}
             {% if PREV %}<a href="{{ PREV.url | relative_url }}" title="{{ PREV.title | escape }}">Sebelumnya</a>.{% endif %}
             {% if NEXT %}<a href="{{ NEXT.url | relative_url }}" title="{{ NEXT.title | escape }}">Selanjutnya</a>.{% endif %}
-            <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman</a>.
+            <a href="https://twitter.com/intent/tweet?text=@willnode&tw_p=tweetbutton&url={{ page.url | absolute_url | cgi_escape }}" target="_blank">Tweet halaman ini</a>.
+            <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman ini</a>.
         {% endunless %}
       </span>
     </div>
