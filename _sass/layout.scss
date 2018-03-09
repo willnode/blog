@@ -5,15 +5,16 @@
 
   // Custom bg
   background: linear-gradient(45deg, white 40%, $grey-color-light 100%);
-
   border-bottom: 1px solid $grey-color-light;
-
   position: relative;
+  a {
+    font-weight: $base-font-weight;
+  }
 }
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 300 !important;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -103,6 +104,9 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background: linear-gradient(180deg, $grey-color-light 0%, #fdfdfd 100%);
+  a {
+    font-weight: $base-font-weight;
+  }
 }
 
 /**
@@ -119,6 +123,9 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  a {
+    font-weight: $base-font-weight;
+  }
 }
 
 .post-meta {
