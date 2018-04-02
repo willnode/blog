@@ -21,8 +21,9 @@ Sekedar informasi, bahwa artikel berikut memang artikel awal-awal yang labil. Ja
 + [#Diary EPS. 015](https://web.facebook.com/WillandMubarok/posts/774584212697418){:title="RISK IS FUN"}
 + [#Diary EPS. 016](https://web.facebook.com/WillandMubarok/posts/780322042123635){:title="There are somebody who share with me"}
 
-\#Diary Berakhir di EPS 16. Bulan Januari 2017 aku beralih ke [wordpress](https://willandgottaloveideas.wordpress.com). Dari 34 artikel, beberapa memang epic bahkan aku double posting lagi ke Facebook.
+\# Diary Berakhir di EPS 16. Bulan Januari 2017 aku beralih ke [wordpress](https://willandgottaloveideas.wordpress.com). Dari 34 artikel, beberapa memang epic bahkan aku double posting lagi ke Facebook.
 
++ [FACEBOOK VS. LOGIKA - ENAM DERAJAT PERTEMANAN](https://www.facebook.com/WillandMubarok/posts/627158960773278)
 + [Kreatif](https://web.facebook.com/WillandMubarok/posts/812885108867328)
 + [Don't be a Chicken](https://web.facebook.com/WillandMubarok/posts/823021817853657)
 + [Explore X Exploit](https://web.facebook.com/WillandMubarok/posts/838900642932441)
