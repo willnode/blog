@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <!--
-Libur setahun itu gak gampang, tapi sangat menantang.
+Libur setahun itu tak gampang, tapi sangat menantang.
 
 Sendirian selama setahun itu sakit, hanya menambah beban, namun itulah dunia pada kenyataannya.
 
@@ -18,9 +18,9 @@ Jadi lu pingin libur setahun seperti saya?
 
 ## Saat Liburan sendiri menjadi Keputusan yang Bodoh
 
-Tepat 13 Juni 2017 itu memang keputusan gue yang nekat. 98% calo yang nggak lolos SBM tetap memilih langsung kuliah, yang berarti aku termasuk yang secuil persennya.
+Tepat 13 Juni 2017 itu memang keputusan gue yang nekat. 98% calo yang tidak lolos SBM tetap memilih langsung kuliah, yang berarti aku termasuk yang secuil persennya.
 
-Alasanku sederhana, karena aku nggak ingin ribet daftar lagi, apalagi aku masih bisa daftar lagi tahun depan. Aku pikir sih tidak masalahkan?
+Alasanku sederhana, karena aku tidak ingin ribet daftar lagi, apalagi aku masih bisa daftar lagi tahun depan. Aku pikir sih tidak masalahkan?
 
 Ya, sampai ada orang tanya "kamu kuliah kemana?". Jawaban ku berbeda-beda, karena saat aku berterus terang, mereka bertanya lagi "Liburan diisi apa?". Aku jawab "Kursus buat SBM tahun depan".
 

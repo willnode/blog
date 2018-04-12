@@ -4,7 +4,7 @@ title: Teknik Hosting Gratis 2018
 
 Punya Hosting Sendiri secara gratis mungkin seperti mimpi. Tapi tidak sekarang. Buktinya aku punya website <https://wellosoft.net> sudah lengkap termasuk semua fitur hosting kelas Enterprise (Subdomain + Email Forward + SSL + Blog Comment + Analytics + CDN + Node Server), semua secara **cuma-cuma** (aku hanya perlu bayar domain per tahun).
 
-Kuncinya adalah nggak rely sama satu provider. Untuk wellosoft.net aku gunakan:
+Kuncinya adalah tidak rely sama satu provider. Untuk wellosoft.net aku gunakan:
 
 ## Hosting
 
@@ -12,7 +12,7 @@ Kuncinya adalah nggak rely sama satu provider. Untuk wellosoft.net aku gunakan:
 
 Buat repo baru, tambahkan `index.html`, push, lalu set page source ke master. Selesai! Lebih gampang dan fleksibel daripada Wordpress dengan temanya yang super terbatas.
 
-Kalau nggak percaya, coba lihat betapa minimalisnya [tampilan beranda saya][https://wellsoft.net] dan enaknya [cara ku membuat website dengan frameworks tanpa template][https://github.com/willnode/willnode.github.io].
+Kalau tidak percaya, coba lihat betapa minimalisnya [tampilan beranda saya][https://wellsoft.net] dan enaknya [cara ku membuat website dengan frameworks tanpa template][https://github.com/willnode/willnode.github.io].
 
 Oh ya, Aku harusnya bertemi kasih pada GitHub karena aku diberikan bandwidth 100 GB secara cuma-cuma. Plus aku bisa memforward ke custom domain secara gratis!
 
@@ -48,7 +48,7 @@ Kata siapa SSL (HTTPS) tidak gratis? Pakai Cloudflare, Aku bisa ganti nameserver
 
 + Email Forwarding: <https://mailgun.com>
 
-Jika aku ingin menggunakan email atas nama domain, aku butuh Email Forwarder. Untungnya saja ada mailgun, yang menyedian 10.000 email forward gratis per bulan! Kebayang nggak sih bagaimana leganya punya `willnode@wellosoft.net` secara gratis!
+Jika aku ingin menggunakan email atas nama domain, aku butuh Email Forwarder. Untungnya saja ada mailgun, yang menyedian 10.000 email forward gratis per bulan! Kebayang tidak sih bagaimana leganya punya `willnode@wellosoft.net` secara gratis!
 
 + Server Deployment: <https://zeit.co/now>
 

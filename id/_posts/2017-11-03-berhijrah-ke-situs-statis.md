@@ -8,7 +8,7 @@ Jadi aku sudah membebaskan diriku sendiri dari siksa `wordpress`. Tahun-tahun la
 Artikel ini tidak pernah dimaksudkan untuk mengeritik wordpress.
 ```
 
-Alwalnya aku menggunakan `wordpress.com` yang gratis karena aku tak mampu membayar `4$` per bulan. Namun ini berarti aku harus membiasakan dengan terbatasnya tema, iklan di beranda dan sistem artikel yang buruk. Perhatikan kata sistem artikel yang aku tulis disini, karena itu membuatku menciptakan dua blog yang berbeda `wellosoft.wordpress.com` dan `willandgottaloveideas.wordpress.com` hanya untuk bisa mempunyai blog multi-bahasa, dan Itu nggak bagus.
+Awalnya aku menggunakan `wordpress.com` yang gratis karena aku tak mampu membayar `4$` per bulan. Namun ini berarti aku harus membiasakan dengan terbatasnya tema, iklan di beranda dan sistem artikel yang buruk. Perhatikan kata sistem artikel yang aku tulis disini, karena itu membuatku menciptakan dua blog yang berbeda `wellosoft.wordpress.com` dan `willandgottaloveideas.wordpress.com` hanya untuk bisa mempunyai blog multi-bahasa, dan itu tidak bagus.
 
 ## Diselamatkan oleh GitHub
 
@@ -52,7 +52,7 @@ Aku merasa bersyukur melihat skenario sedemikian bisa dilakukan di masa kini. Se
 
 Emang super. GitHub menyelesaikan dilema saya di era serba online. Ia seperti Facebook-nya programmer masakini. Aku benar-benar menghargai bahwa situs dan pelayanan mereka itu ada untuk setiap orang, secara gratis.
 
-Aku sebenarnya khawatir kalau situs ini di banned kalau sudah melewati [100 GB bandwidth limit][usagelimit] (dirata-rata sekitar 400 penguntung setiap jam). Namun karena saya emang amatir, jadi gak perlu takut yang aneh aneh =)
+Aku sebenarnya khawatir kalau situs ini di banned kalau sudah melewati [100 GB bandwidth limit][usagelimit] (dirata-rata sekitar 400 penguntung setiap jam). Namun karena saya emang amatir, jadi tak perlu takut yang aneh aneh =)
 
 [gitdesktop]: https://desktop.github.com
 [jekyll]: https://jekyllrb.com

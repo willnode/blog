@@ -6,9 +6,9 @@ Saking kebanyakan liburan, sampai-sampai mungkin aku terlalu banyak akun sosial 
 
 ## [Facebook](//facebook.com/WillandMubarok)
 
-Awal mula, aku gak punya media sosial, selain Facebook.
+Awal mula, aku tak punya media sosial, selain Facebook.
 
-Facebook dulu tempat #1 anak modern lagi nongkrong online. Sekarang mah industri online berkembang dan teman-teman juga mulai pada gede, jadi viewer nggak terlalu ramai. But hey, paling tidak semua orang punya Facebook kan?!
+Facebook dulu tempat #1 anak modern lagi nongkrong online. Sekarang mah industri online berkembang dan teman-teman juga mulai pada gede, jadi viewer tidak terlalu ramai. But hey, paling tidak semua orang punya Facebook kan?!
 
 #### Apa yang aku posting di Facebook
 
@@ -30,7 +30,7 @@ Wuut.. Di pertengahan 2017 WhatsApp punya fitur baru untuk membuat Status 🎉
 
 Meskipun Audience-nya segelumit, namun bisa terprediksi. Setiap kali aku update status, paling tidak ada 15 orang terjangkau.
 
-Namun yang spesial tidak hanya itu. Karena WhatsApp hanya menjangkau kontak kita secara mutual, jadi teman deket gua gak pernah ketinggalan tentang status gue.
+Namun yang spesial tidak hanya itu. Karena WhatsApp hanya menjangkau kontak kita secara mutual, jadi teman deket gua tak pernah ketinggalan tentang status gue.
 
 #### Apa yang aku posting di WhatsApp
 
@@ -42,7 +42,7 @@ Twitter ini baru. Meskipun gue sudah registrasi sejak 2015, aku baru menikmatiny
 
 Teman-teman gue jarang ada di Twitter, tapi ini bukan keistimewaannya.
 
-Yang aku suka di Twitter itu, seperti tempat nongkrong nya orang pinter. Banyak orang kutemukan di-twitter dengan berbagai backgound. Pokoknya nggak bosenin seperti di Facebook. Selain itu, programmer dan OSS maintainer juga sering update disana.
+Yang aku suka di Twitter itu, seperti tempat nongkrong nya orang pinter. Banyak orang kutemukan di-twitter dengan berbagai backgound. Pokoknya tidak bosenin seperti di Facebook. Selain itu, programmer dan OSS maintainer juga sering update disana.
 
 Karena ekosistem Twitter, aku berkomunikasi dengan bahasa inggris disana. Aku begitu karena [dia](//twitter.com/yudit1999) juga begitu.
 
@@ -60,7 +60,7 @@ Hingga detik ini GitHub tempat #1 tempatku nongkrong, karena aku masih sibuk mer
 
 #### Apa yang aku posting di GitHub
 
-Serius bro? Enaknya di GitHub itu yah, script dan project gue tidak hilang ditendang waktu. Trus berpengaruh banget sama popularitas skill gue sebagai programmer. Jadi Amit-amit lah kalau lu seorang programmer tapi gak punya akun GitHUb.
+Serius bro? Enaknya di GitHub itu yah, script dan project gue tidak hilang ditendang waktu. Trus berpengaruh banget sama popularitas skill gue sebagai programmer. Jadi Amit-amit lah kalau lu seorang programmer tapi tak punya akun GitHUb.
 
 ## Akun Sosial Lain
 
@@ -70,7 +70,7 @@ Serius bro? Enaknya di GitHub itu yah, script dan project gue tidak hilang diten
 
 Banyak temen gue yang online di Instagram. Sayang pula karena gue takut kuota kesedot banyak 😢.
 
-Lagian, sebagai programmer gue males kalau disuruh selfie, apalagi sekarang aku gak workout kemana-mana. Mungkin tidak akan sama kalau gue kuliah nanti, btw.
+Lagian, sebagai programmer gue males kalau disuruh selfie, apalagi sekarang aku tak workout kemana-mana. Mungkin tidak akan sama kalau gue kuliah nanti, btw.
 
 #### [YouTube](//youtube.com/channel/UCJr_vGlEh3DvYyPXh-VJscg)
 
@@ -82,8 +82,8 @@ Yang ini gue serinag akses, yah untuk sekedar menyambung bisnis gue sebagai publ
 
 #### [Codepen](//codepen.io/willnode/)
 
-Sorry. Kontennya masih sepi. Lagian masih nggak suka promosi disana.
+Sorry. Kontennya masih sepi. Lagian masih tidak suka promosi disana.
 
 #### IG
 
-🔫 Please gue gak pernah tahu apa itu IG, namun banyak pula temen2 cool gue pada online di IG. Apa sih yang spesial dari IG?
+🔫 Please gue tak pernah tahu apa itu IG, namun banyak pula temen2 cool gue pada online di IG. Apa sih yang spesial dari IG?
