@@ -62,6 +62,6 @@ BONUS: di beranda wellosoft.net coba intercept network traffic ke now.sh menggun
 
 ## Penutup
 
-Hah kan! Semua nya gratis! Aku hanya perlu membayar domain yang untuk saya sekitar 150 ribu per tahun. Buat agan-agan yang ingin rekomendasi tempat beli domain aku sarankan <https://niagahoster.co.id> karena aku langganan disitu, dan mereka melayani bayar domain secara cash melalui Indomaret 🎉.
+Hah kan! Semua nya gratis! Aku hanya perlu membayar domain yang untuk saya sekitar 150 ribu per tahun. Buat agan-agan yang ingin rekomendasi tempat beli domain aku sarankan <https://niagahoster.co.id> karena aku langganan disitu, dan mereka melayani bayar domain secara cash melalui Indomaret (dan PayPal) 🎉.
 
 Sekian!

@@ -54,6 +54,8 @@ Emang super. GitHub menyelesaikan dilema saya di era serba online. Ia seperti Fa
 
 Aku sebenarnya khawatir kalau situs ini di banned kalau sudah melewati [100 GB bandwidth limit][usagelimit] (dirata-rata sekitar 400 penguntung setiap jam). Namun karena saya emang amatir, jadi tak perlu takut yang aneh aneh =)
 
+**Update:** [Lihat juga artikel terbaru di wordpress lama][update].
+
 [gitdesktop]: https://desktop.github.com
 [jekyll]: https://jekyllrb.com
 [choco]: https://chocolatey.org
@@ -64,3 +66,4 @@ Aku sebenarnya khawatir kalau situs ini di banned kalau sudah melewati [100 GB b
 [mysite]: http://wellosoft.net
 [usagelimit]: https://help.github.com/articles/what-is-github-pages/#usage-limits
 [liquid]: https://shopify.github.io/liquid/
+[update]: https://willandgottaloveideas.wordpress.com/2018/05/21/revolusi-blog-2018-bye-bye-wordpress/

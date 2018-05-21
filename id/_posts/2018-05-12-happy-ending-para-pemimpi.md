@@ -4,7 +4,7 @@ title: Happy Ending, para Pemimpi
 
 > "Akhir Bahagia, hanya terjadi didalam Film" --  George Melies (Hugo 2011)
 
-Aku dulu melihat film Hugo sebagian dari tayangan TV, dan malam ini aku melihat ulang secara penuh. George Melies adalah pioneer Film Sains Fiksi, sehingga pantas filmnya mendapatkan rating yang cukup tinggi.
+Aku dulu melihat film [Hugo](https://id.wikipedia.org/wiki/Hugo_(film)) sebagian dari tayangan TV, dan malam ini aku melihat ulang secara penuh. George Melies adalah pioneer Film Sains Fiksi, sehingga pantas filmnya mendapatkan rating yang cukup tinggi.
 
 Quote diatas adalah quote yang berdasarkan film tersebut, sebagai apa yang Melies pelajari dari masa lalu yang kelam -- dan aku akui memang itulah yang selama ini aku percaya, mengapa?
 
