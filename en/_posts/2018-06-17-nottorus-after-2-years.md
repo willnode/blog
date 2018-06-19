@@ -33,9 +33,9 @@ People get pissed and I feel sorry for those who get pissed because Stridemann a
 
 In recent months, he drop Nottorus price from 250$ to 150$ and call it a day with no announcement at all, then drop it far lower to [100](https://forum.unity.com/threads/395750/page-22#post-3447509) US$ then [75](https://forum.unity.com/threads/395750/page-22#post-3456300) US$, before [shutting](https://forum.unity.com/threads/395750/page-22#post-3455919) down whole Nottorus website including its forum.
 
-That.. Pisses.. Everyone. People care support not price. Some even saying that the latest update (v2.0) is broken. Honestly, I just know these news few days ago when checking forums and it's pretty dishearting. However, I noticing one thing that's important...
+That.. Pisses.. Everyone. People care support not price. Some even saying that the latest update (v2.0) is broken. Honestly, I just know these news few weeks ago when checking forums and it's pretty dishearting. However, I noticing one thing that's important...
 
-## The Latest Update contains source code
+## The Latest Update contains Source Code
 
 I say "what the \$\$\$\$". Yes, of course, at 75 US$ it's the lowest price of Nottorus that ever be offered. I immedially purchase it with revenues from TEXDraw sale last month (75$ is highest asset I bought, but it'll restore back when 2 people purchase TEXDraw probably in few weeks). I don't care with no support, atleast I got the source code.
 
@@ -45,10 +45,9 @@ Before cracking the source code, I played with Nottorus for few hours... Just to
 
 ![image]({{site.img}}nottorus-camview.png)
 
-
 Actually it was kinda hard to figure out which node doing the right job (biggest confusion is on where do I insert operators :/ ). But then I know by testing Nottorus parsing capability, and then I say it's really impressive. I had good hours spend with amazing experience of wonders.
 
-## So How complex is Nottorus?
+## So How complex (in code) is Nottorus?
 
 This is comparison by lines of code written in Nottorus vs. [TEXDraw](http://u3d.as/cco).
 
@@ -68,6 +67,6 @@ If I'm really going to use Nottorus, I would 1.) Cleaning the code 2.) Fix Annoy
 
 ## Closing
 
-Like everybody has said, this asset has full potential, however it is [not](https://forum.unity.com/threads/395750/page-23#post-3465395) on the right dev -- either he burnout, not enough having sales or just choose to fall into abyss.
+Like everybody has said, this asset has full potential, however it is [not](https://forum.unity.com/threads/395750/page-23#post-3465395) on the right dev -- either he burnout, not enough having sales or just choose to fall into abyss. *(I'll pull my words when he came back)*
 
 As much I hate and love parts in Nottorus, I have full respect to its creator. If he didn't show sign of anything about coming back, we know that somebody has to take over the project or the world will [miss](https://forum.unity.com/threads/395750/page-23#post-3502475) this unique masterpiece of software ever after.
