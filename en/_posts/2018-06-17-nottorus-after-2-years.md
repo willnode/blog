@@ -85,6 +85,7 @@ Problem | Solution | Fixed? | Sidenote |
 ---|---|---|---|
 A lot of obsolete warning popped up upon extracting the source code | Attempt to update code to use Newer API manually | ✔ | I still fixing code style inconsistencies and commented code, +4000 lines of code is stripped as of today |
 Lack of keyboard shortcuts (insert, delete, move, attach nodes) | Add those shortcut | (WIP) | Added shortcut: Ctrl+D (duplicate), PageUp + PageDown (Zoom). |
+Nottorus sometimes require Unity Restart | "Nottorus -> Flush Cache" | ✔ | This is a temporary solution, but obviously much faster than restarting whole Unity |
 Slow Load, Slow Compilation, Slow Saving, Slow Undo Snapshoting | See if I can make it faster | ✔ | Almost done. Loading went fast from 1 minute to just under 5 sec. Slow Compilation have been solved by stripping Precompiler and using StringBuilder. Slow saving and undo snapshot will be solved by (see 👇) |
 Big `.nts` file | Find faster serializer ([Odin](https://github.com/TeamSirenix/odin-serializer)?) and propose `.ntsx` if breaking changes introduced | (Yet) | This is my HUGE issue. `.nts` are formatted as XML object, which is far inefficient (I'm proposing `.ntsx` saved as raw JSON or compressed binary file) |
 Unseamless `.cs` parsing | Add Right-click .CS -> "Edit with Nottorus", have `.nts` file saved outside Assets (optional option), PRESERVE unmodified part of code | (Yet) | Still looking for best way to do this |
