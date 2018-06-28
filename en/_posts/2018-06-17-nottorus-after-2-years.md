@@ -70,3 +70,26 @@ If I'm really going to use Nottorus, I would 1.) Cleaning the code 2.) Fix Annoy
 Like everybody has said, this asset has full potential, however it is [not](https://forum.unity.com/threads/395750/page-23#post-3465395) on the right dev -- either he burnout, not enough having sales or just choose to fall into abyss. *(I'll pull my words when he came back)*
 
 As much I hate and love parts in Nottorus, I have full respect to its creator. If he didn't show sign of anything about coming back, we know that somebody has to take over the project or the world will [miss](https://forum.unity.com/threads/395750/page-23#post-3502475) this unique masterpiece of software ever after.
+
+## EDIT: Post Mortem
+
+*last edit is on June 21*
+
+Over the last three days I *did* made modifications to Nottorus... well, maybe too much.
+
+![img]({{site.img}}nottorus-gitpatches.png)
+
+Upon refactoring the code I noticed that Nottorus has a lot of strings attached (read: couple of issues). Here I list problems that I spotted and wanted to fix before I can use it for game production:
+
+Problem | Solution | Fixed? | Sidenote |
+---|---|---|---|
+A lot of obsolete warning popped up upon extracting the source code | Attempt to update code to use Newer API manually | ✔ | I still fixing code style inconsistencies and commented code, +4000 lines of code is stripped as of today |
+Lack of keyboard shortcuts (insert, delete, move, attach nodes) | Add those shortcut | (WIP) | Added shortcut: Ctrl+D (duplicate), PageUp + PageDown (Zoom). |
+Slow Load, Slow Compilation, Slow Saving, Slow Undo Snapshoting | See if I can make it faster | ✔ | Almost done. Loading went fast from 1 minute to just under 5 sec. Slow Compilation have been solved by stripping Precompiler and using StringBuilder. Slow saving and undo snapshot will be solved by (see 👇) |
+Big `.nts` file | Find faster serializer ([Odin](https://github.com/TeamSirenix/odin-serializer)?) and propose `.ntsx` if breaking changes introduced | (Yet) | This is my HUGE issue. `.nts` are formatted as XML object, which is far inefficient (I'm proposing `.ntsx` saved as raw JSON or compressed binary file) |
+Unseamless `.cs` parsing | Add Right-click .CS -> "Edit with Nottorus", have `.nts` file saved outside Assets (optional option), PRESERVE unmodified part of code | (Yet) | Still looking for best way to do this |
+Hardcoded Theme | Move everything to a `GUISkin` File | (Yet) | Still looking for best way to do this |
+
+Nottorus is a big plugin. There's many part from it that I can learn. However refactoring things to solve above problems, is challenging. I feel like a janitor. Tomorrow I'm moving to another project, and probably going back here again to finish what left.
+
+*(PS: I'm working on a new Game, so I'm also trying to make it using Nottorus)*
