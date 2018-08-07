@@ -249,4 +249,16 @@ h6:hover .header-link {
   text-decoration: none;
 }
 
+.footnote {
+  background-color: $brand-color;
+  color: white !important;
+  padding: 0px 2px;
+  margin: 0px 3px;
+  border-radius: 3px;
+}
+
+.footnotes {
+  @include relative-font-size(0.8);
+}
+
 

@@ -115,6 +115,8 @@ Semua yang aku jelaskan diatas jelaslah click-bait dan penuh spekulasi dan ekspe
 
 Doakan ya! 😏🍸.
 
+**UPDATE (7/8/18): Semua fakta didalam artikel ini hanyalah ekpetasi saya. [Lihat Part 2](/id/emm-sekarang-gue-jadi-maba.html)**
+
 [1]: https://google.co.id/search?q=trunojoyo
 [2]: https://willandgottaloveideas.wordpress.com/2017/01/13/01-resolusi-tahun-2017-yang-super-spesial/
 [3]: https://willandgottaloveideas.wordpress.com/2017/06/15/12-mental-katastropik/

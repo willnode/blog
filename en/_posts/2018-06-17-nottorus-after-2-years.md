@@ -84,12 +84,13 @@ Upon refactoring the code I noticed that Nottorus has a lot of strings attached 
 Problem | Solution | Fixed? | Sidenote |
 ---|---|---|---|
 A lot of obsolete warning popped up upon extracting the source code | Attempt to update code to use Newer API manually | ✔ | I still fixing code style inconsistencies and commented code, +4000 lines of code is stripped as of today |
-Lack of keyboard shortcuts (insert, delete, move, attach nodes) | Add those shortcut | (WIP) | Added shortcut: Ctrl+D (duplicate), PageUp + PageDown (Zoom). |
+Lack of keyboard shortcuts (insert, delete, move, attach nodes) | Add those shortcut | (WIP) | Added shortcut: Ctrl+D (duplicate), PageUp + PageDown (Zoom), and [lots here](https://github.com/willnode/Nottorus-Unofficial-Patches/commit/a0b8ef3e) |
 Nottorus sometimes require Unity Restart | "Nottorus -> Flush Cache" | ✔ | This is a temporary solution, but obviously much faster than restarting whole Unity |
 Slow Load, Slow Compilation, Slow Saving, Slow Undo Snapshoting | See if I can make it faster | ✔ | Almost done. Loading went fast from 1 minute to just under 5 sec. Slow Compilation have been solved by stripping Precompiler and using StringBuilder. Slow saving and undo snapshot will be solved by (see 👇) |
 Big `.nts` file | Find faster serializer ([Odin](https://github.com/TeamSirenix/odin-serializer)?) and propose `.ntsx` if breaking changes introduced | (Yet) | This is my HUGE issue. `.nts` are formatted as XML object, which is far inefficient (I'm proposing `.ntsx` saved as raw JSON or compressed binary file) |
 Unseamless `.cs` parsing | Add Right-click .CS -> "Edit with Nottorus", have `.nts` file saved outside Assets (optional option), PRESERVE unmodified part of code | (Yet) | Still looking for best way to do this |
 Hardcoded Theme | Move everything to a `GUISkin` File | (Yet) | Still looking for best way to do this |
+Hardcoded Compilation (Seriously, Stridemann?) | Use [CodeDom](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/using-the-codedom) | (WIP) | What's converted: Variable value (more later) |
 
 Nottorus is a big plugin. There's many part from it that I can learn. However refactoring things to solve above problems, is challenging. I feel like a janitor. Tomorrow I'm moving to another project, and probably going back here again to finish what left.
 
