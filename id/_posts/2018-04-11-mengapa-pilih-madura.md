@@ -61,7 +61,7 @@ Budhe saya punya saudara di Sumenep (Madura), jadi dia tahu banyak jalanan dan s
 
 *Terus mengapa aku Suka gurun safana?* Karena dari kampus top 100 di Indonesia, hanya UTM (yang aku tahu) mempunyai view Mewah (*mepet sawah*) yang ada di tanah Jawa. Dan juga jauh dari bising perkotaan (dan macet tentunya), yang tidak membuat aku betah, karena suasana Mewah itu yang membuatku rindu pada rumah 😏.
 
-Oh, dan tidak cuma itu saja, budhe ku juga berkata jalan didepan iku juga jalan *yang dilalui bus Bungurasih (surabaya) dengan Sumenep*. Jadi bagi pengguna Bis dari Jombang, **cukup ke Bungurasih, lalu Sumenep, dan langsung berhenti di UTM**, tidak perlu ngocek ongkos nge-Grab, tidak perlu ribet nunggu ojek apalagi dianter dari terminal. Selesai.
+Oh, dan tidak cuma itu saja, budhe ku juga berkata jalan didepan iku juga jalan *yang dilalui bus Bungurasih (surabaya) dengan Sumenep*. Jadi bagi pengguna Bis dari Jombang, **cukup ke Bungurasih, lalu ke Tanjung perak dan naik angkot, langsung berhenti di UTM**, tidak perlu ngocek ongkos nge-Grab, tidak perlu ribet nunggu ojek apalagi dianter dari terminal. Selesai.
 
 Ohh, dan seperti saya yang (mungkin) berencana untuk bawa motor sendiri, mungkin aku cuma butuh tahu rute kilat ke Suramadu, lalu enjoy 60 km/s menuju ke UTM dalam 20 menit. Simple.
 
@@ -87,7 +87,7 @@ Tidak semua orang tahu ini, namun banyak kesempatan yang aku sadari dari memilih
 
 **Programming itu mainstream**. Kalau perlu biar aku telan tugas apapun dalam satu hari, sehingga aku punya lebih banyak waktu free, asalkan tidak ada dosen killer yang menugaskan tulis tangan.
 
-#### Kolaboratif dan Sedikit Stress
+#### Kolaboratif dan Sedikit Tekanan
 
 Aku tak tahu bagaimana kesibukan mahasiswa dikampus top, tapi aku yakin meminimalisir stress dengan masuk di kampus sekelas UTM, adalah jawaban terbaik yang seharusnya tak boleh kupandang sebelah mata.
 
@@ -115,7 +115,7 @@ Semua yang aku jelaskan diatas jelaslah click-bait dan penuh spekulasi dan ekspe
 
 Doakan ya! 😏🍸.
 
-**UPDATE (7/8/18): Semua fakta didalam artikel ini hanyalah ekpetasi saya. [Lihat Part 2](/id/emm-sekarang-gue-jadi-maba.html)**
+**UPDATE (7/8/18): [Lihat Part 2](emm-sekarang-gue-jadi-maba.html)**
 
 [1]: https://google.co.id/search?q=trunojoyo
 [2]: https://willandgottaloveideas.wordpress.com/2017/01/13/01-resolusi-tahun-2017-yang-super-spesial/
