@@ -14,5 +14,4 @@ The transition from full-time Asset Store Publisher into full-time college stude
 
 So that's it. I admit support will be slightly scarce from now. But again, i'm trying my best to keep these products (and my Github profile) alive today and tomorrow.
 
-Regards,
 💖
