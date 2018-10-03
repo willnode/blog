@@ -1,6 +1,5 @@
 ---
 title: Jangan Merasa Bosan
-hidden: true
 ---
 
 Hidup dijaman sekarang ini, semuanya serba instan. Maksudku, jika manusia sekarang tidak kesulitan untuk cari makan, sandang, papan, apa yang mereka keluhkan?
