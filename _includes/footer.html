@@ -1,21 +1,9 @@
 <footer class="site-footer">
   <div class="wrapper">
     <span class="site-slang" style="margin-left: 0">Willnode Blog. (C) 2017
-      <a href="{{ site.baseurl }}/{{ page.lang }}/about/">{{ site.author.name }}</a>.
-      {% capture url %}{{ page.url | remove_first: "en/" |  remove_first: "id/" }}{% endcapture %}
-      {% unless page.lang == "id" %}
-      Switch language
-        <a href="{{ site.baseurl }}/en{{ url }}">EN</a> |
-        <a href="{{ site.baseurl }}/id{{ url }}">ID</a>.
-        <a href="https://github.com/willnode/blog/">Fork me</a>.
-        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Improve this page</a>.
-      {% else %}
-      Ganti bahasa
-        <a href="{{ site.baseurl }}/en{{ url }}">EN</a> |
-        <a href="{{ site.baseurl }}/id{{ url }}">ID</a>.
-        <a href="https://github.com/willnode/blog/">Fork me</a>.
-        <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman</a>.
-      {% endunless %}
+      <a href="{{ site.baseurl }}/about/">{{ site.author.name }}</a>.
+      <a href="https://github.com/willnode/blog/">Fork me</a>.
+      <a href=https://github.com/willnode/blog/blob/master/{{ page.path }}>Perbaiki halaman</a>.
     </span>
   </div>
 </footer>

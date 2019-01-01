@@ -218,3 +218,16 @@ td ,th{
   border: 0px solid #ddd;
   border-right:  1px solid #ddd;
 }
+
+details {
+  border-left: 2px solid #bbb;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+summary {
+  cursor: pointer;
+  position: relative;
+  left: -20px;
+  margin-bottom: 10px;
+}

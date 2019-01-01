@@ -40,3 +40,13 @@ $on-laptop:        800px !default;
   "layout",
   "syntax"
 ;
+
+.sandbox {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 8px 0px;
+  all: initial;
+  * {
+    all: unset !important;
+  }
+}
