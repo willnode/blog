@@ -1,0 +1,17 @@
+---
+layout: compress
+permalink: /home-api.json
+---
+[{% assign arr = "" | split: ", " %}
+{% for post in site.posts %}{% unless post.hidden==true %}
+  {% assign urii = post.url | absolute_url %}
+  {% assign datee = post.date | date_to_xmlschema %}
+  {% capture item %}{
+    "title":"{{post.title}}",
+    "uri":"{{urii}}",
+    "date":"{{datee}}"
+  }{% endcapture %}
+  {% assign arr = arr | push: item %}
+{% endunless %}{% endfor %}
+{{ arr | array_to_sentence_string: '' }}
+]

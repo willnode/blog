@@ -113,7 +113,12 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  background: linear-gradient(to bottom, #444, #111);
+}
+
+.page-inner {
+  padding: $spacing-unit $spacing-unit;
+  background-color: white;
 }
 
 .page-heading {
