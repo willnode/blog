@@ -13,5 +13,5 @@ permalink: /home-api.json
   }{% endcapture %}
   {% assign arr = arr | push: item %}
 {% endunless %}{% endfor %}
-{{ arr | array_to_sentence_string: '' }}
+{{ arr | array_to_sentence_string: ',' }}
 ]
