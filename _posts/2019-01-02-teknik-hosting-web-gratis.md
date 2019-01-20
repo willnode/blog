@@ -245,20 +245,7 @@ Maka hasil jadi nya dari `about.html` ialah:
 
 {::options parse_block_html="false" /}
 
-<div class="sandbox">
-<header>
-	<a href="/">Beranda</a>
-</header>
-<div class="main-content">
-	<h1>Tentang Saya</h1>
-	<span>By: Anonymous</span>
-	<p>Halo dunia!</p>
-</div>
-<footer>
-	<a href="/about.html">Tentang</a>
-</footer>
-</div>
-
+<script async src="//jsfiddle.net/willnode/wa51f2gm/embed/result/"></script>
 
 Syntax Liquid tidak cuman berhenti disitu. Terdapat beberapa variabel selain `site` dan `page` yang anda bisa lihat [disini](https://jekyllrb.com/docs/variables/). Selain itu anda perlu belajar tentang [dasar-dasar syntax liquid](https://shopify.github.io/liquid/), beserta Jekyll [Filter](https://jekyllrb.com/docs/liquid/filters/) dan [Tags](https://jekyllrb.com/docs/liquid/tags/) yang tersedia agar bisa membantu desain template lebih lengkap.
 
@@ -280,6 +267,13 @@ Contoh penggunaan CI adalah laman web utama <https://wellosoft.net>. Laman terse
 
 Ribet kan? Iya. Makanya CI diperlukan untuk mengotomatiskan semua steps diatas. CI Rekomendasi saya ia <https://travis-ci.org>. Travis CI itu 100% Gratis dan tidak batasi untuk repo publik di GitHub. Untuk mengaturnya aku hanya perlu menyalakan CI pada repo tersebut dan mengisi beberapa config file, dan tada! Setiap push ke source akan mengeksekusi langkah2 diatas dalam waktu beberapa menit saja.
 
-## Kesimpulan
+## Penutup?
 
+Bagaimana? Sudah siapkah anda untuk mengisi konten website anda?
 
+Anda bisa mengisi web tersebut menjadi web portofolio, bisnis, atau sekedar blog. Semua bergantung kreasi anda. Jika web anda sudah siap anda bisa memikirkan untuk membelikan domain untukknya yang tidak merogok dompet banyak (sekitar 100 ribu pertahun untuk `.com`)
+
+Referensi:
+
++ [Panduan Official Github Pages](https://pages.github.com/)
++ [Tutorial Interaktif](https://www.thinkful.com/learn/a-guide-to-using-github-pages/)
