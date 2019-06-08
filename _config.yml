@@ -19,7 +19,7 @@ author:
   email: willnode@wellosoft.net
   uri: https://wellosoft.net
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://devlog.wellosoft.net" # the base hostname & protocol for your site, e.g. http://example.com
 img: "//res.cloudinary.com/wellosoft/image/upload/blog/"
 permalink: /:categories/:title.html
 excerpt:
