@@ -114,11 +114,14 @@
  */
 .page-content {
   background: linear-gradient(to bottom, #444, #111);
+  padding: 2em;
 }
 
 .page-inner {
   padding: $spacing-unit $spacing-unit;
   background-color: white;
+  box-shadow: black 0 0 1em;
+  border-radius: 1em 0;
 }
 
 .page-heading {

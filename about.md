@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Tentang Blog Ini
+title: About Me
 permalink: /about/
-categories: ['id']
 ---
 
-Ini adalah blog teknikal yang [aku](https://wellosoft.net/#persona) sempatkan dimasa senggang untuk menulis tutorial dan bahasan seputar programming yang aku ketahui.
+WIIIN0DE. 19th year since I landed on earth.
 
-Jika anda merasa bahwa blog ini sulit untuk dipahami. Harap maklum. Blog ini aku desain seperti sebagai pusat referensi dari suatu topik. Makanya banyak link/pranala luar, meskipun berbahasa inggris. Namun setiap pertanyaan akan saya jawab melalui tweet anda sekalian dengan mention akun [Twitter saya](https://twitter.com/willnode), dan mengupdate artikel jika diperlukan.
+This is my technical blog (AKA. Devlog). I write technical stuff as I builds my software engineering career. Hopefully.
+
+Not so much content right now. But I hope it will, weeks by weeks.
+

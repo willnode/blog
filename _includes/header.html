@@ -1,21 +1,19 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
-    <span class="site-slang">BLOG</span>
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">&#9776;</span>
-        </label>
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">&#9776;</span>
+      </label>
 
-        <div class="trigger">
-            <a class="page-link" href="http://wellosoft.net">Beranda</a>
-            <a class="page-link" href="{{ site.baseurl }}/about/">Tentang</a>
-            <a class="page-link" href="{{ site.baseurl }}/feed/">RSS</a>
-        </div>
-      </nav>
+      <div class="trigger">
+        <a class="page-link" href="http://wellosoft.net">Homesite</a>
+        <a class="page-link" href="{{ site.baseurl }}/about/">About</a>
+        <a class="page-link" href="{{ site.baseurl }}/feed/">RSS</a>
+      </div>
+    </nav>
   </div>
 </header>
