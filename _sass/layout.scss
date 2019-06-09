@@ -269,4 +269,10 @@ h6:hover .header-link {
   @include relative-font-size(0.8);
 }
 
+.disqus-comment-count {
+  font-size: 80%;
+  background-color: gainsboro;
+  border-radius: 100px;
+  padding: 2px 1em;
+}
 
