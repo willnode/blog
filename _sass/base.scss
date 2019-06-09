@@ -1,9 +1,22 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -15,7 +28,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  font-feature-settings: "kern" 1;
+  font-feature-settings: "kern"1;
   font-kerning: normal;
 }
 
@@ -24,9 +37,20 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+iframe,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -46,7 +70,7 @@ img {
 /**
  * Figures
  */
-figure > img {
+figure>img {
   display: block;
 }
 
@@ -59,13 +83,15 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
+
+  >ul,
+  >ol {
     margin-bottom: 0;
   }
 }
@@ -75,7 +101,12 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $strong-font-weight;
 }
 
@@ -137,7 +168,7 @@ pre {
   padding: 8px 12px;
   overflow-x: auto;
 
-  > code {
+  >code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
@@ -153,7 +184,7 @@ center {
  * Wrapper
  */
 .wrapper {
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -161,7 +192,7 @@ center {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
@@ -183,7 +214,7 @@ center {
 /**
  * Icons
  */
-.icon > svg {
+.icon>svg {
   display: inline-block;
   vertical-align: middle;
 
@@ -197,26 +228,27 @@ center {
  * Tables
  */
 
- hr {
-   border: 1px solid #ccc;
-   margin: 35px 0px;
- }
+hr {
+  border: 1px solid #ccc;
+  margin: 35px 0px;
+}
 
-table{
+table {
   border-collapse: collapse;
   border-spacing: 0;
   margin: 20px 0px;
 }
 
 
-td ,th{
-  border:1px solid #bbb;
-  padding:5px;
+td,
+th {
+  border: 1px solid #bbb;
+  padding: 5px;
 }
 
 .gist .blob-num {
   border: 0px solid #ddd;
-  border-right:  1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 details {
@@ -230,4 +262,20 @@ summary {
   position: relative;
   left: -20px;
   margin-bottom: 10px;
+}
+
+iframe {
+  border: 1px solid gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

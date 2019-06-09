@@ -1,5 +1,5 @@
 {% if page.comments != false %}
-  <div id="disqus_thread"><button id="show-disqus">Show Comments</button></div>
+  <div id="disqus_thread"><button id="show-disqus">Show Comments <span class="disqus-comment-count" data-disqus-identifier="{{ page.url | absolute_url }}"></span></button></div>
   <script>
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
@@ -16,5 +16,6 @@
       (d.head || d.body).appendChild(s);
     };
   </script>
+  <script id="dsq-count-scr" src="//{{ site.disqus.shortname }}.disqus.com/count.js" async></script>
   <noscript><style>#show-disqus{display: none}</style><i><h5>Comment disabled -- Enable JavaScript to comment on this article.</h5></i></noscript>
 {% endif %}
